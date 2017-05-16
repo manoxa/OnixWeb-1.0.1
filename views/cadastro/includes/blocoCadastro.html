@@ -9,10 +9,76 @@
 	<div class="row">
 		<from class="form-horizontal" name="register" id="register"> 
 			<div class="col-md-6"> 
-
+				<div class="form-group">
+				    <label class="col-sm-3 control-label">Nome</label>
+				    <div class="col-sm-9">
+				        <input type="text" class="form-control" placeholder="Digite seu Nome" size="40" autocomplete='off'>
+				    </div>		
+				</div>
+				<div class="form-group">
+				    <label class="col-sm-3 control-label">E-Mail</label>
+				    <div class="col-sm-9">
+				        <input type="text" class="form-control" placeholder="Digite seu E-Mail" size="30" autocomplete='off'>
+				    </div>		
+				</div>
+				<div class="form-group">
+				    <label class="col-sm-3 control-label">Senha</label>
+				    <div class="col-sm-9">
+				        <input type="text" class="form-control" placeholder="Digite uma Senha" size="10" autocomplete='off'>
+				    </div>		
+				</div>
+				<div class="form-group">
+				    <label class="col-sm-3 control-label">Confirme Senha</label>
+				    <div class="col-sm-9">
+				        <input type="text" class="form-control" placeholder="Confirme a Senha" size="10" autocomplete='off'>
+				    </div>		
+				</div>
+				<div class="form-group">
+					<a type="submit" name="btnSave" id="btnSave" onClick="openModal();" class="btn primary-button btn-default navbar-btn" href="">
+						<span></span> Salvar
+					</a>
+					<a type="submit" name="btnCancel" id="btnCancel" onClick="openModal();" class="btn primary-button btn-default navbar-btn" href="">
+						<span></span> Cancelar
+					</a>					
+				</div>																		
 			</div>
 		    <div class="col-md-6"> 
-
+				  <form class="form-horizontal">
+				      <div class="form-group">
+				          <label class="control-label col-sm-2">Quarter</label>
+				          <div class="col-md-10">
+				           <input type="text" class="form-control">
+				          </div>
+				      </div>
+				      <div class="form-group">
+				          <label class="control-label col-sm-2">Address</label>
+				          <div class="col-md-8">
+				           <input type="text" class="form-control">
+				          </div>
+				          <label class="control-label col-sm-1">Addr. №</label>
+				          <div class="col-md-1">
+				           <input type="text" class="form-control">
+				          </div>
+				      </div>
+				      <div class="form-group">
+				          <label class="control-label col-sm-2">Block name/Number</label>
+				          <div class="col-md-4">
+				           <input type="text" class="form-control">
+				          </div>
+				          <label class="control-label col-sm-1">Entrance</label>
+				          <div class="col-md-1">
+				           <input type="text" class="form-control">
+				          </div>
+				          <label class="control-label col-sm-1">Floor</label>
+				          <div class="col-md-1">
+				           <input type="text" class="form-control">
+				          </div>
+				          <label class="control-label col-sm-1">Apartment</label>
+				          <div class="col-md-1">
+				           <input type="text" class="form-control">
+				          </div>
+				      </div>
+				  </form>
 			</div>
 		</from>
 	</div>
