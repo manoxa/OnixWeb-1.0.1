@@ -1,3 +1,3 @@
-function openModal(){
-    $('#waintingModal').modal('show');
-}
+	function openModal(){
+	    $('#waintingModal').modal('show');
+	}
